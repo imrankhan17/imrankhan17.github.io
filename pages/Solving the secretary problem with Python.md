@@ -13,7 +13,7 @@ candidates = np.arange(1, n+1)
 np.random.shuffle(candidates)
 ```
 
-The optimal solution is to reject the first `n/e` applicants (e ~ [2.718](https://en.wikipedia.org/wiki/E_(mathematical_constant)) and choose the first candidate who is better than the best candidate from the `n/e` rejected candidates.  If there is no candidate who is better then choose the last candidate.
+The optimal solution is to reject the first `n/e` applicants (e ~ [2.718](https://en.wikipedia.org/wiki/E_(mathematical_constant))) and choose the first candidate who is better than the best candidate from the `n/e` rejected candidates.  If there is no candidate who is better then choose the last candidate.
 
 For our n candidates we reject the first `int(round(n/np.e))` candidates.  The best candidates from this list will be the minimum value (since lower is better).
 
@@ -34,7 +34,7 @@ rest = candidates[stop:]
 try:
 	return rest[rest < best_from_rejected][0]
 except IndexError:
-    return candidates[-1]
+	return candidates[-1]
 ```
 
 We can wrap all of this in a function.
@@ -48,9 +48,9 @@ def choose_candidate(n):
     rest = candidates[stop:]
     
     try:
-        return rest[rest < best_from_rejected][0]
+    	return rest[rest < best_from_rejected][0]
     except IndexError:
-        return candidates[-1]
+    	return candidates[-1]
 ```
 
 Now let's see how 

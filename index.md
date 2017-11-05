@@ -4,6 +4,10 @@ Data Scientist at [Vodafone](http://www.vodafone.com/content/bigdata/index.html 
 
 Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricket Savant").
 
+### Blogs:
+
+05/11/2017 [Solving the secretary problem with Python](https://imrankhan17.github.io/pages/Solving%20the%20secretary%20problem%20with%20Python.html)
+
 ### Projects:
 
 [TerminalCricket](https://imrankhan17.github.io/TerminalCricket/)  
