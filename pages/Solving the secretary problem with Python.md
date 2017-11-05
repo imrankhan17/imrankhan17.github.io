@@ -2,7 +2,7 @@
 
 The secretary problem is a hypothetical question regarding how best to choose a candidate for a job position.  The formulation and mathematical solution is outlined quite clearly [here](https://en.wikipedia.org/wiki/Secretary_problem).  This post explores how to solve the problem numerically in Python.
 
-In short, an known number of candidates are interviewed one at a time in a random order to fill one position.  The interviewer knows nothing about the abilities of the candidates to come but can rank those that have been seen from best to worst.  After each interview, the candidate is either rejected or accepted and this decision is final.  The solution to this problem will maximise the probability of selecting the best candidate.   
+In short, a known number of candidates are interviewed one at a time in a random order to fill one position.  The interviewer knows nothing about the abilities of the candidates to come but can rank those that have been seen from best to worst.  After each interview, the candidate is either rejected or accepted and this decision is final.  The solution to this problem will maximise the probability of selecting the best candidate.   
 
 We start by forming a list of candidates ordered from 1 to n where 1 is the best candidate.  
 
