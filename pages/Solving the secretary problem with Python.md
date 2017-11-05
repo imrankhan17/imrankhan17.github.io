@@ -167,7 +167,7 @@ Let's see what our optimal rejection strategy should be given we want the best 1
 plt.figure(figsize=(10, 6))
 for i in [1, 2, 5, 10]:
     plt.scatter(range(0, 101, 5), get_best_candidates(i), label=str(i))
-plt.xlim(0,100)
+plt.xlim(0, 100)
 plt.ylim(0, 100)
 plt.xticks(np.arange(0, 101, 5))
 plt.yticks(np.arange(0, 101, 10))
@@ -183,7 +183,9 @@ plt.show()
 
 The blue curve is as before i.e. when we want the one best candidate.  If we wanted one of the best 2 candidates, the optimal strategy is to reject the first 30% of candidates which will give us a greater than evens chance of getting what we want.  For the best 5 and 10 candidates we can increase that probaility to 70% and over 80% respectively by using the optimal strategy.  
 
+This post has demonstrated a simple exploration of the secretary problem implemented in Python as well as briefly probing at how the problem can be extended.
 
+[Home](https://imrankhan17.github.io/)
 
 
 
