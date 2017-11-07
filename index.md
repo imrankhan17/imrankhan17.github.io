@@ -6,7 +6,9 @@ Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricke
 
 ### Blogs:
 
-05/11/2017 [Solving the secretary problem with Python](https://imrankhan17.github.io/pages/Solving%20the%20secretary%20problem%20with%20Python.html)
+07/11/2017 [Exploring WhatsApp chats with Python](pages/Exploring WhatsApp chats with Python.md)
+
+05/11/2017 [Solving the secretary problem with Python](pages/Solving the secretary problem with Python.md)
 
 ### Projects:
 
@@ -18,8 +20,6 @@ _Simple exploration of Google Maps Distance Matrix API._
 
 [Parsing Opta files](https://imrankhan17.github.io/Parsing-Opta-files/)  
 _Import Opta F24 and F7 files to generate summary reports of passes/shots/goals._  
-
-[Test page](pages/test.md)
   
  ___
 [LinkedIn](https://www.linkedin.com/in/imran-khan1994?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BLDQmN8gfQzGBu0kxBf9GUA%3D%3D) | 
