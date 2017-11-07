@@ -81,6 +81,9 @@ At what time of the day do messages get sent?
 
 ![](figs_whatsapp/fig3.png)
 
+On which days have the most messages been sent?
+
+![](figs_whatsapp/fig4.png)
 
 Who sends the longest messages?  The table shows the mean length of messages in terms of characters and words.
 
@@ -100,6 +103,101 @@ df.groupby('sender').mean().sort_values('characters').round(2)
 | IK 	   | 35.98       | 6.55   |
 | AC 	   | 36.74       | 7.37   |
 | NA 	   | 42.29       | 7.39   |
+
+What are the most common messages sent?
+
+```python
+df.message.value_counts().head(20)
+```
+
+| message   | frequency  |
+| ------------ |-------------|
+| <Media omitted>       | 835		 |
+| Lol       | 268      |
+| 😂 	   | 153      |
+| Yh 	   | 101      |
+| Haha 	   | 80       |
+| 😂😂😂 	   | 79       |
+| Yeah 	   | 72       |
+| ? 	   | 62      |
+| lol 	   | 59       |
+| Loool 	   | 55       |
+| Yea 	   | 52       |
+| Looool 	   | 45       |
+| Lool 	   | 37       |
+| Yhh 	   | 35       |
+| Hahaha 	   | 34       |
+| 👀 	   | 28      |
+| Nah 	   | 24       |
+| Hmm 	   | 24       |
+| 😂😂 	   | 21       |
+| No 	   | 20      |  
+
+`<Media omitted>` refers to the sending of multimedia messages.  The most popular single messages seem to be about expressing amusement and responding in the affirmative or negative.  What about if we split the messages up into their individual words?
+
+```python
+words = ''
+for i in df.message.values:
+    words += '{} '.format(i.lower()) # make words lowercase
+
+pd.DataFrame(Counter(words.split()).most_common(20), columns=['word', 'frequency'])
+```
+
+| word | frequency |
+|------|-----------|
+| the  | 4567      |
+| to   | 3149      |
+| i    | 3037      |
+| a    | 2698      |
+| and  | 2545      |
+| you  | 2531      |
+| it   | 2332      |
+| is   | 2022      |
+| in   | 1889      |
+| of   | 1688      |
+| that | 1561      |
+| for  | 1460      |
+| but  | 1245      |
+| on   | 1190      |
+| be   | 1143      |
+| was  | 1069      |
+| yeah | 1036      |
+| so   | 898       |
+| have | 871       |
+| lol  | 869       |  
+
+In total we get over 151,141 words made up of 16,164 unique words.  As we would expect in a large enough corpus of text, the most common words are stop words.  Instead we can filter out these stop words using the `nltk` package.
+
+```python
+from nltk.corpus import stopwords
+for i in Counter(words.split()).most_common(60):
+    if i[0] not in stopwords.words('english'):
+        print i[0] + ',',
+```
+```python
+yeah, lol, <media, omitted>, it's, good, like, i'm, one, get, that's, think, don't, really, go, man, know,```
+
+What can we say about distinct conversations within the group chat?  Let's define a conversation as a stream of messages where the gap between any two messages is not longer than 20 minutes.  
+
+```python
+# find difference between current and previous message
+df['reply_time'] = (df.timestamp.shift(-1) - df.timestamp).apply(lambda x: x.total_seconds()/60).fillna(np.inf)
+# if reply time is more than 20 mins add 1 to counter
+df['conversation'] = (df.reply_time > 20).cumsum().shift(1).fillna(0).astype(int) + 1
+
+df3 = df.groupby('conversation').agg({'timestamp': ['min', 'max', 'count'], 
+                                      'sender': ['first', 'unique', 'nunique']})
+
+df3['duration'] = (df3['timestamp']['max'] - df3['timestamp']['min']).apply(lambda x: x.total_seconds()/60)
+```
+
+By this method we identify 2,350 conversations. The average conversation lasts 11.3 minutes, is made up of 10.5 messages from 2 participants.  Who starts the most conversations?
+
+![](figs_whatsapp/fig4.png)
+
+Finally, there is plenty of scope to do further analysis on this dataset.  We can look at conversation dynamics, network analysis of who replies to who, explore sentiment of messages and identify topics etc.
+
+
 
 
 
