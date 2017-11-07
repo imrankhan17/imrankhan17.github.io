@@ -193,14 +193,8 @@ df3['duration'] = (df3['timestamp']['max'] - df3['timestamp']['min']).apply(lamb
 
 By this method we identify 2,350 conversations. The average conversation lasts 11.3 minutes, is made up of 10.5 messages from 2 participants.  Who starts the most conversations?
 
-![](figs_whatsapp/fig4.png)
+![](figs_whatsapp/fig5.png)
 
 Finally, there is plenty of scope to do further analysis on this dataset.  We can look at conversation dynamics, network analysis of who replies to who, explore sentiment of messages and identify topics etc.
 
-
-
-
-
-
-
-
+[Home](../index.md)
