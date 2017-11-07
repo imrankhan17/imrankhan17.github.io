@@ -174,8 +174,10 @@ for i in Counter(words.split()).most_common(60):
     if i[0] not in stopwords.words('english'):
         print i[0] + ',',
 ```
+
 ```python
-yeah, lol, <media, omitted>, it's, good, like, i'm, one, get, that's, think, don't, really, go, man, know,```
+yeah, lol, <media, omitted>, it's, good, like, i'm, one, get, that's, think, don't, really, go, man, know,
+```
 
 What can we say about distinct conversations within the group chat?  Let's define a conversation as a stream of messages where the gap between any two messages is not longer than 20 minutes.  
 
