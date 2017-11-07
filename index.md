@@ -4,13 +4,13 @@ Data Scientist at [Vodafone](http://www.vodafone.com/content/bigdata/index.html 
 
 Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricket Savant").
 
-### Blogs:
+### Blogs
 
 07/11/2017 [Exploring WhatsApp chats with Python](pages/Exploring WhatsApp chats with Python.md)
 
 05/11/2017 [Solving the secretary problem with Python](pages/Solving the secretary problem with Python.md)
 
-### Projects:
+### Projects
 
 [TerminalCricket](https://imrankhan17.github.io/TerminalCricket/)  
 _Get live cricket scores on your terminal._
