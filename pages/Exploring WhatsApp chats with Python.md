@@ -4,11 +4,11 @@ WhatsApp has a functionality that enables you to download the conversation logs 
 
 ### Parsing the data
 
-The text file is a time-ordered list of events that occur within the chat mostly made up of text messages but also multimedia messages, addition and removal of group participants etc.  Each line is a single message and is in the following format:  
+The text file is a time-ordered list of events that occurs within the chat mostly made up of text messages but also multimedia messages, addition and removal of group participants etc.  Each line is a single message and is in the following format:  
 
 `date, time - sender: message`
 
-We can use Python to parse the text file into a tabular format suitable for analysis.  The task here is to extract the three components for each line - timestamp, sender and message.  The first challenge was to use regular expressions to account for messages that have at more than one line break.  The full function that returns the Pandas dataframe is as below.  The data is from one particular group chat going back 2 years.
+We can use Python to parse the text file into a tabular format suitable for analysis.  The task here is to extract the three components from each line - timestamp, sender and message.  The first challenge was to use regular expressions to account for messages that have more than one line break.  The full function that returns the Pandas dataframe is as below.  The data is from one particular group chat going back 2 years.
 
 ```python
 import pandas as pd
@@ -25,7 +25,7 @@ def parse_file(text_file):
     sender = []; message = []; datetime = []
     for row in data:
 
-        # timestamp if before the first dash
+        # timestamp is before the first dash
         datetime.append(row.split(' - ')[0])
 
         # sender is between am/pm, dash and colon
@@ -44,7 +44,7 @@ def parse_file(text_file):
     df = pd.DataFrame(zip(datetime, sender, message), columns=['timestamp', 'sender', 'message'])
     df['timestamp'] = pd.to_datetime(df.timestamp, format='%d/%m/%Y, %I:%M %p')
 
-    # remove events no associated with a sender
+    # remove events not associated with a sender
     df = df[df.sender != ''].reset_index(drop=True)
     
     return df
@@ -73,7 +73,7 @@ for k, g in itertools.groupby(x):
 df2 = pd.DataFrame(zip(names, message_length), columns=['sender', 'length'])
 ```
 
-We now have 13,979 messages, indicating that on average nearly 2 messages are sent by the same person consecutively.  This only results in only one change in the order of most frequent senders.
+We now have 13,979 messages, indicating that on average nearly 2 messages are sent by the same person consecutively.  This results in only one change in the order of most frequent senders.
 
 ![](figs_whatsapp/fig2.png)
 
@@ -166,7 +166,7 @@ pd.DataFrame(Counter(words.split()).most_common(20), columns=['word', 'frequency
 | have | 871       |
 | lol  | 869       |  
 
-In total we get over 151,141 words made up of 16,164 unique words.  As we would expect in a large enough corpus of text, the most common words are stop words.  Instead we can filter out these stop words using the `nltk` package.
+In total we get over 151,141 words made up of 16,164 unique words.  As we would expect in a large enough corpus of text, the most common words are [stop words](https://en.wikipedia.org/wiki/Stop_words).  Instead we can filter out these stop words using the `nltk` package.
 
 ```python
 from nltk.corpus import stopwords
@@ -182,7 +182,7 @@ yeah, lol, <media, omitted>, it's, good, like, i'm, one, get, that's, think, don
 What can we say about distinct conversations within the group chat?  Let's define a conversation as a stream of messages where the gap between any two messages is not longer than 20 minutes.  
 
 ```python
-# find difference between current and previous message
+# find time difference between current and previous message
 df['reply_time'] = (df.timestamp.shift(-1) - df.timestamp).apply(lambda x: x.total_seconds()/60).fillna(np.inf)
 # if reply time is more than 20 mins add 1 to counter
 df['conversation'] = (df.reply_time > 20).cumsum().shift(1).fillna(0).astype(int) + 1
