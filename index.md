@@ -6,6 +6,8 @@ Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricke
 
 ### Blogs
 
+19/11/2017 [Analysing tube journeys with Folium](pages/Analysing tube journeys with Folium.html)
+
 07/11/2017 [Exploring WhatsApp chats with Python](pages/Exploring WhatsApp chats with Python.md)
 
 05/11/2017 [Solving the secretary problem with Python](pages/Solving the secretary problem with Python.md)
