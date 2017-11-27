@@ -12,6 +12,11 @@ Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricke
 
 05/11/2017 [Solving the secretary problem with Python](pages/Solving the secretary problem with Python.md)
 
+### Talks and workshops
+
+[Introduction to Pandas workshop](https://github.com/imrankhan17/my-tube-journeys)  
+_Representing Vodafone at [Hatch London](https://www.hatchlondon.io/)_.
+
 ### Projects
 
 [TerminalCricket](https://imrankhan17.github.io/TerminalCricket/)  
