@@ -22,6 +22,9 @@ _Representing Vodafone at [Hatch London](https://www.hatchlondon.io/)_.
 [TerminalCricket](https://imrankhan17.github.io/TerminalCricket/)  
 _Get live cricket scores on your terminal._
 
+[TerminalNews](https://github.com/imrankhan17/terminal-news)  
+_Get the latest news headlines on your terminal._
+
 [Using Google Maps API](https://imrankhan17.github.io/using-Google-Maps-API/)  
 _Simple exploration of Google Maps Distance Matrix API._
 
