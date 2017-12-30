@@ -25,6 +25,9 @@ _Get live cricket scores on your terminal._
 [TerminalNews](https://github.com/imrankhan17/terminal-news)  
 _Get the latest news headlines on your terminal._
 
+[Perceptron](https://github.com/imrankhan17/perceptron)  
+_Simple numpy implementation of the perceptron neural network._
+
 [Using Google Maps API](https://imrankhan17.github.io/using-Google-Maps-API/)  
 _Simple exploration of Google Maps Distance Matrix API._
 
