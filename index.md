@@ -19,6 +19,9 @@ _Representing Vodafone at [Hatch London](https://www.hatchlondon.io/)_.
 
 ### Projects
 
+[pyzoopla](https://github.com/imrankhan17/pyzoopla)  
+_A Python package to access information about properties from Zoopla._
+
 [TerminalCricket](https://imrankhan17.github.io/TerminalCricket/)  
 _Get live cricket scores on your terminal._
 
