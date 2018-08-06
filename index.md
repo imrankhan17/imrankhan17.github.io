@@ -15,7 +15,10 @@ Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricke
 ### Talks and workshops
 
 [Introduction to Pandas workshop](https://github.com/imrankhan17/my-tube-journeys)  
-_Representing Vodafone at [Hatch London](https://www.hatchlondon.io/)_.
+_Representing Vodafone at [Hatch London](https://www.hatchlondon.io/)._
+
+[Introduction to Python workshop](https://github.com/imrankhan17/intro-to-python)  
+_Workshop given to work experience students at Vodafone._
 
 ### Projects
 
