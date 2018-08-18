@@ -18,4 +18,7 @@ In the previous terminal:
 In a browser:
  - `localhost:8000`
 
-Enter the token shown in the terminal.
+Enter the token shown in the terminal.  
+
+---
+[Home](../index.md)

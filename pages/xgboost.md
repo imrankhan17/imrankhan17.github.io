@@ -21,3 +21,6 @@ Installing xgboost from source:
 
  Inside a python REPL:  
  - `import xgboost as xgb`
+
+---
+[Home](../index.md)
