@@ -12,6 +12,12 @@ Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricke
 
 05/11/2017 [Solving the secretary problem with Python](pages/Solving the secretary problem with Python.md)
 
+### Short blogs
+
+[Installing xgboost on an EC2 Linux instance](pages/xgboost.md)
+
+[Opening a Jupyter Notebook on an EC2 instance](pages/jupyter-ec2.md)
+
 ### Talks and workshops
 
 [Introduction to Pandas workshop](https://github.com/imrankhan17/my-tube-journeys)  
