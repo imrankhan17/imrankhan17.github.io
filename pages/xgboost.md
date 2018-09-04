@@ -1,4 +1,4 @@
-## Installing xgboost on an EC2 Linux instance
+## Installing xgboost on an AWS EC2 Linux instance
 
 Install Python3 and create a virtual environment:  
  - `yes | sudo yum install python36`
@@ -9,8 +9,8 @@ Add the virtual environment to the python path:
  - `export PYTHONPATH="/home/ec2-user/.local/lib/python3.6/site-packages/"`
 
 Then install git and gcc:  
- - `sudo yum install git`
- - `sudo yum install gcc-c++`
+ - `yes | sudo yum install git`
+ - `yes | sudo yum install gcc-c++`
 
 Installing xgboost from source:  
  - `git clone --recursive https://github.com/dmlc/xgboost.git`

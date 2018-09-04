@@ -1,4 +1,4 @@
-## Opening a Jupyter Notebook on an EC2 instance
+## Opening a Jupyter Notebook on an AWS EC2 instance
 
 Install Python3 and create a virtual environment:  
  - `yes | sudo yum install python36`
