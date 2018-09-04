@@ -72,7 +72,7 @@ plt.ylabel('frequency')
 plt.show()
 ```
 
-![](figs/fig1.png)
+![](figs/secretary/fig1.png)
 
 We can see that candidate no. 1 is chosen most often.  In fact the distribution is heavily skewed towards the best few candidates, so even if you don't get the very best there is a high chance you will select one of the top 10% of candidates.  This is further illustrated by the plotting the cumulative density function of this distribution.
 
@@ -88,7 +88,7 @@ plt.ylabel('Cumulative probability')
 plt.show()
 ```
 
-![](figs/fig2.png)
+![](figs/secretary/fig2.png)
 
 Interestingly, the probability of choosing one of the best candidates rises very quickly up to about the 10th candidate before increasing in a linear fashion.
 
@@ -142,7 +142,7 @@ plt.axvline(100/np.e, ls='--', c='black')
 plt.show()
 ```
 
-![](figs/fig3.png)
+![](figs/secretary/fig3.png)
 
 As we would expect the optimal strategy is somewhere in between 35% and 40% i.e. 1/e.  The probability of choosing the best candidate when we reject the first n/e candidates also happens to be 1/e.  
 
@@ -179,7 +179,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![](figs/fig4.png)
+![](figs/secretary/fig4.png)
 
 The blue curve is as before i.e. when we want the one best candidate.  If we wanted one of the best 2 candidates, the optimal strategy is to reject the first 30% of candidates which will give us a greater than evens chance of getting what we want.  For the best 5 and 10 candidates we can increase that probaility to 70% and over 80% respectively by using the optimal strategy.  
 
