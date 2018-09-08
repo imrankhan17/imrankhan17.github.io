@@ -14,11 +14,11 @@ Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricke
 
 ### Short blogs
 
-17/08/2018 [Installing xgboost on an AWS EC2 Linux instance](pages/xgboost.md)
+04/09/2018 [Running PySpark in a Jupyter Notebook on Google Cloud](pages/pyspark-jupyter-google-cloud.md)
 
 18/08/2018 [Opening a Jupyter Notebook on an AWS EC2 instance](pages/jupyter-ec2.md)
 
-04/09/2018 [Running PySpark in a Jupyter Notebook on Google Cloud](pages/pyspark-jupyter-google-cloud.md)
+17/08/2018 [Installing xgboost on an AWS EC2 Linux instance](pages/xgboost.md)
 
 ### Talks and workshops
 
