@@ -6,6 +6,8 @@ Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricke
 
 ### Blogs
 
+12/09/2018 [Deploying a Flask app using AWS](pages/flask.md)
+
 19/11/2017 [Analysing tube journeys with Folium](pages/Analysing tube journeys with Folium.html)
 
 07/11/2017 [Exploring WhatsApp chats with Python](pages/Exploring WhatsApp chats with Python.md)
