@@ -4,7 +4,7 @@ In this blog we will create a basic Flask application and deploy this to the web
 
 Our simple API will calculate the roots of a given quadratic equation.  It will take as input three numerical values which represent the coefficients and calculate the values (if they exist).  We will also add in a way to store a record of these values in a database.
 
-The full code for this blog can be found on [GitHub](https://github.com/imrankhan17/flask-serverless).
+The full code for this blog can be found on [GitHub](https://github.com/imrankhan17/flask-serverless) and the final app [here](https://avbw48ujsh.execute-api.eu-west-2.amazonaws.com/dev).
 
 ### Getting started
 
@@ -28,7 +28,7 @@ We will need to create a function that calculates the roots of a quadratic equat
 ```python
 def calculate_roots(a, b, c):
     """
-    Calculates roots of quadratic equation of form `ax^2 +bx + c = 0`
+    Calculates roots of quadratic equation of form `ax^2 + bx + c = 0`
     :param a: coefficient of x^2
     :param b: coefficient of x
     :param c: constant
@@ -78,7 +78,7 @@ However, we get a '400 Bad Request' error.  That's because we haven't given it a
 
 ### Creating a user interface
 
-So we have a minimum viable product working.  However, it's nor particularly user-friendly to input URL parameters to interact with the API.  Let's add a basic form for the user to fill in.  Create a new file called `form.py`.
+So we have a minimum viable product working.  However, it's not particularly user-friendly to input URL parameters to interact with the API.  Let's add a basic form for the user to fill in.  Create a new file called `form.py`.
 
 ```python
 from flask_wtf import FlaskForm
@@ -136,7 +136,7 @@ You can now try it out again with `python app.py`.
 
 ### Moving our app to the internet
 
-So we have our basic application working with some user-friendly features.  Let's now share it with the rest of the world by deploying it to the world.  To do this, we use the Python package [Zappa](https://github.com/Miserlou/Zappa) that makes the whole process so much easier.
+So we have our basic application working with some user-friendly features.  Let's now share it with the rest of the world by deploying it to the web.  To do this, we use the Python package [Zappa](https://github.com/Miserlou/Zappa) that makes the whole process so much easier.
 
 First, install the package with `pip install zappa`.  Also make sure you've got an AWS account and the [CLI tool](https://github.com/Miserlou/Zappa#installation-and-configuration) set-up locally.  Once all of that is done, enter `zappa init` and click through accepting all the defaults.  This will create a `zappa_settings.json` file in your repository.  Finally, enter `zappa deploy` and that's it - your application is now live on the web.  Click on the link provided and test it out.
 
@@ -174,7 +174,7 @@ CREATE TABLE inputs (
 );
 ```
 
-We will now need to write a function to insert the data into our table every time someone uses our application.  Add the following to our `utils.py` file:
+We will now need to write a function to insert the data into our table every time someone uses our application.  Add the following to your `utils.py` file:
 
 ```python
 import pymysql.cursors
