@@ -32,6 +32,9 @@ _Workshop given to work experience students at Vodafone._
 
 ### Projects
 
+[Property listings API](https://zju4neuzsc.execute-api.eu-west-2.amazonaws.com/api)  
+_A REST API to search for properties currently for sale and to rent in the UK._
+
 [pyzoopla](https://github.com/imrankhan17/pyzoopla)  
 _A Python package to access information about properties from Zoopla._
 
