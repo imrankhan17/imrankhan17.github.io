@@ -4,7 +4,7 @@ In this blog we will create a basic Flask application and deploy this to the web
 
 Our simple API will calculate the roots of a given quadratic equation.  It will take as input three numerical values which represent the coefficients and calculate the values (if they exist).  We will also add in a way to store a record of these values in a database.
 
-The full code for this blog can be found on [GitHub](https://github.com/imrankhan17/flask-serverless) and the final app [here](https://avbw48ujsh.execute-api.eu-west-2.amazonaws.com/dev).
+The full code for this blog can be found on [GitHub](https://github.com/imrankhan17/flask-serverless) and the final app [here](https://hu4sdua2vg.execute-api.eu-west-2.amazonaws.com/dev).
 
 ### Getting started
 
