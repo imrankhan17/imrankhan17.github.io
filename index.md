@@ -32,7 +32,7 @@ _Workshop given to work experience students at Vodafone._
 
 ### Projects
 
-[Property listings API](https://zju4neuzsc.execute-api.eu-west-2.amazonaws.com/api)  
+[Property listings API](https://cy30l4lai7.execute-api.eu-west-2.amazonaws.com/api)  
 _A REST API to search for properties currently for sale and to rent in the UK._
 
 [pyzoopla](https://github.com/imrankhan17/pyzoopla)  
