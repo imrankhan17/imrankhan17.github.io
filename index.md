@@ -16,6 +16,8 @@ Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricke
 
 ### Short blogs
 
+23/12/2018 [Running an Apache web server using Docker on EC2](pages/apache-docker-ec2.md)
+
 22/12/2018 [Using Jupyter within a virtual environment on macOS](pages/jupyter-venv.md)
 
 04/09/2018 [Running PySpark in a Jupyter Notebook on Google Cloud](pages/pyspark-jupyter-google-cloud.md)

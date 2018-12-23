@@ -185,8 +185,5 @@ The blue curve is as before i.e. when we want the one best candidate.  If we wan
 
 This post has demonstrated a simple exploration of the secretary problem implemented in Python as well as briefly probing at how the problem can be extended.
 
-[Home](https://imrankhan17.github.io/)
-
-
-
-
+---
+[Home](../index.md)
