@@ -45,6 +45,9 @@ _A Python package to access information about properties from Zoopla._
 [statsbomb](https://github.com/imrankhan17/statsbomb-parser)  
 _Convert StatsBomb's JSON data into easy-to-use CSV format._
 
+[Image classification REST API](https://github.com/imrankhan17/deep-learning-api)  
+_Flask API using a deep learning model to classify images deployed using Nginx and Docker._
+
 [TerminalCricket](https://imrankhan17.github.io/TerminalCricket/)  
 _Get live cricket scores on your terminal._
 
@@ -53,9 +56,6 @@ _Get the latest news headlines on your terminal._
 
 [Perceptron](https://github.com/imrankhan17/perceptron)  
 _Simple numpy implementation of the perceptron neural network._
-
-[Using Google Maps API](https://imrankhan17.github.io/using-Google-Maps-API/)  
-_Simple exploration of Google Maps Distance Matrix API._
 
  ___
 [LinkedIn](https://www.linkedin.com/in/imran-khan1994?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BLDQmN8gfQzGBu0kxBf9GUA%3D%3D) | 
