@@ -16,6 +16,8 @@ Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricke
 
 ### Short blogs
 
+01/01/2019 [Creating a database instance in Docker](pages/sql-docker.md)
+
 23/12/2018 [Running an Apache web server using Docker on EC2](pages/apache-docker-ec2.md)
 
 22/12/2018 [Using Jupyter within a virtual environment on macOS](pages/jupyter-venv.md)
