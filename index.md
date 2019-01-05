@@ -6,6 +6,8 @@ Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricke
 
 ### Blogs
 
+06/01/2019 [Connecting multiple containers in Docker](pages/docker-python-sql.md)
+
 12/09/2018 [Deploying a Flask app using AWS](pages/flask.md)
 
 19/11/2017 [Analysing tube journeys with Folium](pages/Analysing tube journeys with Folium.html)
@@ -60,7 +62,7 @@ _Get the latest news headlines on your terminal._
 _Simple numpy implementation of the perceptron neural network._
 
  ___
-[LinkedIn](https://www.linkedin.com/in/imran-khan1994?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BLDQmN8gfQzGBu0kxBf9GUA%3D%3D) | 
+[LinkedIn](https://linkedin.com/in/imran-khan1994) | 
 [GitHub](https://github.com/imrankhan17) | 
 [Twitter](https://twitter.com/Imran_Khan94) | 
 [Email](mailto:imrankhan17+github@hotmail.co.uk)
