@@ -2,8 +2,9 @@
 
 ## Catchment areas
 
-[All store catchments](italy_store_catchments_all.html)
-[All store Voronois](italy_store_voronois.html)
+[All store catchments](italy_store_catchments_all.html)  
+[All store Voronois](italy_store_voronois.html)  
+[Store catchment thresholds](italy_store_catchment_candidates_milano.html)
 
 Regions:
   * [Milano store catchments example](italy_store_catchments_milano.html)
