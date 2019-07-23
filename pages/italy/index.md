@@ -2,18 +2,12 @@
 
 ## Catchment areas
 
-[All store catchments](italy_store_catchments_all.html)  
-[All store Voronois](italy_store_voronois.html)  
-[Store catchment thresholds](italy_store_catchment_candidates_milano.html)
-
-Regions:
-  * [Milano store catchments example](italy_store_catchments_milano.html)
-  * [Roma store catchments example](italy_store_catchments_roma.html)
-  * [Luguria store catchments example](italy_store_catchments_liguria.html)
-  * [Puglia store catchments example](italy_store_catchments_puglia.html)
-  * [Toscana store catchments example](italy_store_catchments_toscana.html)
+[All maps](maps.html)  
 
 ## Models
+
+<details><summary>Work in progress</summary>
+<p>
 
 * Store revenue descriptive model  
   * [Linear regression calibration plot](linearregression_calibration.png)
@@ -24,3 +18,6 @@ Regions:
 * Store performance profiling  
   * [Low/medium/high clusters plot](store_clusters.png)
   * [Store clusters features plot](store_cluster_profiles.png)
+
+</p>
+</details>
