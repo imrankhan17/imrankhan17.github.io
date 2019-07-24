@@ -2,7 +2,13 @@
 
 ## Catchment areas
 
-[All maps](maps.html)  
+[All catchment areas and Voronois](all.html)  
+[Catchment thresholds example](thresholds.html)
+
+Regions:
+  * [Liguria](liguria.html)
+  * [Puglia](puglia.html)
+  * [Toscana](toscana.html)
 
 ## Models
 
