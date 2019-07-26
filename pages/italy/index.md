@@ -3,7 +3,7 @@
 ## Catchment areas
 
 [All catchment areas and Voronois](all.html)  
-[Catchment thresholds example](thresholds.html)
+[Catchment thresholds example (shopping centres)](thresholds.html)
 
 Regions:
   * [Liguria](liguria.html)
