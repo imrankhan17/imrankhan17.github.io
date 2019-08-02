@@ -24,6 +24,8 @@ Regions:
 * Store performance profiling  
   * [Low/medium/high clusters plot](store_clusters.png)
   * [Store clusters features plot](store_cluster_profiles.png)
+  
+* Store revenue potential model
 
 </p>
 </details>
