@@ -64,5 +64,5 @@ _Simple numpy implementation of the perceptron neural network._
  ___
 [LinkedIn](https://linkedin.com/in/imran-khan1994) | 
 [GitHub](https://github.com/imrankhan17) | 
-[Twitter](https://twitter.com/Imran_Khan94) | 
+[Twitter](https://twitter.com/imrankcricket) | 
 [Email](mailto:imrankhan17+github@hotmail.co.uk)
