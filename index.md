@@ -18,6 +18,8 @@ Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricke
 
 ### Short blogs
 
+28/09/2019 [Running the Spark UI locally](pages/running-spark-ui-locally.md)
+
 01/01/2019 [Creating a database instance in Docker](pages/sql-docker.md)
 
 23/12/2018 [Running an Apache web server using Docker on EC2](pages/apache-docker-ec2.md)
