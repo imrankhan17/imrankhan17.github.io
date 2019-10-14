@@ -6,6 +6,8 @@ Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricke
 
 ### Blogs
 
+13/10/2019 [Setting up a simple webpage on EC2 with a custom URL](pages/webpage-custom-url.md)
+
 06/01/2019 [Connecting multiple containers in Docker](pages/docker-python-sql.md)
 
 12/09/2018 [Deploying a Flask app using AWS](pages/flask.md)
