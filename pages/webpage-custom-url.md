@@ -80,11 +80,11 @@ Finally, we need to create two new record sets of type "A" to allow both `exampl
 ```shell script
 aws route53 change-resource-record-sets \
     --hosted-zone-id ${ZONE_ID} \
-    --change-batch '{"Changes": [{"Action": "CREATE", "ResourceRecordSet": {"Name": "www.'${DOMAIN}'", "SetIdentifier": "www record", "Type": "A", "Region": "eu-west-2", "TTL": 300, "ResourceRecords": [{"Value": "'${PUBLIC_IP}'"}]}}]}'
+    --change-batch '{"Changes": [{"Action": "CREATE", "ResourceRecordSet": {"Name": "www.'${DOMAIN}'", "Type": "A", "TTL": 300, "ResourceRecords": [{"Value": "'${PUBLIC_IP}'"}]}}]}'
 
 aws route53 change-resource-record-sets \
     --hosted-zone-id ${ZONE_ID} \
-    --change-batch '{"Changes": [{"Action": "CREATE", "ResourceRecordSet": {"Name": "'${DOMAIN}'", "SetIdentifier": "blank record", "Type": "A", "Region": "eu-west-2", "TTL": 300, "ResourceRecords": [{"Value": "'${PUBLIC_IP}'"}]}}]}'
+    --change-batch '{"Changes": [{"Action": "CREATE", "ResourceRecordSet": {"Name": "'${DOMAIN}'", "Type": "A", "TTL": 300, "ResourceRecords": [{"Value": "'${PUBLIC_IP}'"}]}}]}'
 ```
 
 It can take anything from 30 minutes to 48 hours for the DNS records to update.
