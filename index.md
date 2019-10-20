@@ -6,6 +6,8 @@ Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricke
 
 ### Blogs
 
+20/10/2019 [Setting up a simple webpage on EC2 with a custom URL using Terraform](pages/terraform-ec2.md)
+
 13/10/2019 [Setting up a simple webpage on EC2 with a custom URL](pages/webpage-custom-url.md)
 
 06/01/2019 [Connecting multiple containers in Docker](pages/docker-python-sql.md)
