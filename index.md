@@ -44,6 +44,9 @@ _Representing Vodafone at [Hatch London](https://www.hatchlondon.io/)._
 [Introduction to Python workshop](https://github.com/imrankhan17/intro-to-python)  
 _Workshop given to work experience students at Vodafone._
 
+[Software engineering concepts](https://github.com/imrankhan17/apprentices-training)  
+_Notes from sessions given to Vodafone apprentices._
+
 ### Projects
 
 [Property listings API](https://cy30l4lai7.execute-api.eu-west-2.amazonaws.com/api)  
