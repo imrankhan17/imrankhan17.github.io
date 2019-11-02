@@ -1,8 +1,8 @@
 # Imran Khan
 
-Data Scientist at [Vodafone](http://www.vodafone.com/content/bigdata/index.html "Vodafone Big Data").
+Senior Developer at [CricViz](http://cricviz.com "CricViz").
 
-Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricket Savant").
+Formerly blogged about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricket Savant").
 
 ### Blogs
 
@@ -10,19 +10,9 @@ Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricke
 
 13/10/2019 [Setting up a simple webpage on EC2 with a custom URL](pages/webpage-custom-url.md)
 
-06/01/2019 [Connecting multiple containers in Docker](pages/docker-python-sql.md)
-
-12/09/2018 [Deploying a Flask app using AWS](pages/flask.md)
-
-19/11/2017 [Analysing tube journeys with Folium](pages/Analysing tube journeys with Folium.html)
-
-07/11/2017 [Exploring WhatsApp chats with Python](pages/Exploring WhatsApp chats with Python.md)
-
-05/11/2017 [Solving the secretary problem with Python](pages/Solving the secretary problem with Python.md)
-
-### Short blogs
-
 28/09/2019 [Running the Spark UI locally](pages/running-spark-ui-locally.md)
+
+06/01/2019 [Connecting multiple containers in Docker](pages/docker-python-sql.md)
 
 01/01/2019 [Creating a database instance in Docker](pages/sql-docker.md)
 
@@ -30,11 +20,19 @@ Blog about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricke
 
 22/12/2018 [Using Jupyter within a virtual environment on macOS](pages/jupyter-venv.md)
 
+12/09/2018 [Deploying a Flask app using AWS](pages/flask.md)
+
 04/09/2018 [Running PySpark in a Jupyter Notebook on Google Cloud](pages/pyspark-jupyter-google-cloud.md)
 
 18/08/2018 [Opening a Jupyter Notebook on an AWS EC2 instance](pages/jupyter-ec2.md)
 
 17/08/2018 [Installing xgboost on an AWS EC2 Linux instance](pages/xgboost.md)
+
+19/11/2017 [Analysing tube journeys with Folium](pages/Analysing tube journeys with Folium.html)
+
+07/11/2017 [Exploring WhatsApp chats with Python](pages/Exploring WhatsApp chats with Python.md)
+
+05/11/2017 [Solving the secretary problem with Python](pages/Solving the secretary problem with Python.md)
 
 ### Talks and workshops
 
