@@ -94,9 +94,10 @@ df['words'] = df.message.apply(lambda x: len(x.split()))
 df.groupby('sender').mean().sort_values('characters').round(2)
 ```
 
+
 | sender   | characters  | words  |
 | -------- |-------------| -----  |
-| BM       | 25.48		 | 4.79   |
+| BM       | 25.48       | 4.79   |
 | UI       | 29.17       | 5.52   |
 | RZ 	   | 29.76       | 5.75   |
 | CS 	   | 34.75       | 6.67   |
@@ -104,12 +105,14 @@ df.groupby('sender').mean().sort_values('characters').round(2)
 | AC 	   | 36.74       | 7.37   |
 | NA 	   | 42.29       | 7.39   |
 
+
 What are the most common messages sent?
 
 ```python
 df.message.value_counts().head(20)
 ```
 
+```markdown
 | message   | frequency  |
 | ------------ |-------------|
 | <Media omitted>       | 835		 |
@@ -132,6 +135,7 @@ df.message.value_counts().head(20)
 | Hmm 	   | 24       |
 | 😂😂 	   | 21       |
 | No 	   | 20      |  
+```
 
 `<Media omitted>` refers to the sending of multimedia messages.  The most popular single messages seem to be about expressing amusement and responding in the affirmative or negative.  What about if we split the messages up into their individual words?
 

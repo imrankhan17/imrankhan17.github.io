@@ -1,6 +1,6 @@
 # Imran Khan
 
-Senior Developer at [CricViz](http://cricviz.com "CricViz").
+Senior Developer at [Ellipse Data](https://www.ellipsedata.com/ "Ellipse Data").
 
 Formerly blogged about cricket analytics [here](https://cricketsavant.wordpress.com/ "Cricket Savant").
 
