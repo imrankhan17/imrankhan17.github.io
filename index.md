@@ -6,6 +6,8 @@ Formerly blogged about cricket analytics [here](https://cricketsavant.wordpress.
 
 ### Blogs
 
+30/03/2020 [Build a Soccer Stats WhatsApp Chatbot with Python, Flask and Twilio](https://www.twilio.com/blog/build-soccer-stats-whatsapp-chatbot-python-flask-twilio)
+
 20/10/2019 [Setting up a simple webpage on EC2 with a custom URL using Terraform](pages/terraform-ec2.md)
 
 13/10/2019 [Setting up a simple webpage on EC2 with a custom URL](pages/webpage-custom-url.md)
