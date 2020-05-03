@@ -7,7 +7,7 @@ docker pull mariadb
 
 Start a container and specify a root password:
 ```bash
-docker run -d --name my-db -e MYSQL_ROOT_PASSWORD=password mariadb
+docker run -d --name my-db -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 mariadb
 ```
 
 Connect to MariaDB console inside container:
