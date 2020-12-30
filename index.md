@@ -6,6 +6,8 @@ Formerly blogged about cricket analytics [here](https://cricketsavant.wordpress.
 
 ### Blogs
 
+02/06/2020 [Build a Live Traffic WhatsApp Chatbot with Python, Flask, Folium and Twilio](https://www.twilio.com/blog/build-live-traffic-whatsapp-chatbot-python-flask-folium-twilio)
+
 30/03/2020 [Build a Soccer Stats WhatsApp Chatbot with Python, Flask and Twilio](https://www.twilio.com/blog/build-soccer-stats-whatsapp-chatbot-python-flask-twilio)
 
 20/10/2019 [Setting up a simple webpage on EC2 with a custom URL using Terraform](pages/terraform-ec2.md)
@@ -49,7 +51,7 @@ _Notes from sessions given to Vodafone apprentices._
 
 ### Projects
 
-[Property listings API](https://cy30l4lai7.execute-api.eu-west-2.amazonaws.com/api)  
+[Property listings API](https://ym9aqr3sq9.execute-api.eu-west-2.amazonaws.com/api)  
 _A REST API to search for properties currently for sale and to rent in the UK._
 
 [pyzoopla](https://github.com/imrankhan17/pyzoopla)  
