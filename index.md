@@ -6,6 +6,8 @@ Formerly blogged about cricket analytics [here](https://cricketsavant.wordpress.
 
 ### Blogs
 
+10/02/2021 [Connecting to a Raspberry Pi via SSH on Mac](pages/raspberry-pi-ssh-mac.md)
+
 02/06/2020 [Build a Live Traffic WhatsApp Chatbot with Python, Flask, Folium and Twilio](https://www.twilio.com/blog/build-live-traffic-whatsapp-chatbot-python-flask-folium-twilio)
 
 30/03/2020 [Build a Soccer Stats WhatsApp Chatbot with Python, Flask and Twilio](https://www.twilio.com/blog/build-soccer-stats-whatsapp-chatbot-python-flask-twilio)
